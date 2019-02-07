@@ -1,0 +1,101 @@
+#pragma once
+
+#include <Logger/Logger.h>
+#include <API/UE/Containers/FString.h>
+#include "json.hpp"
+#include "WeaponDamageCustomizer.h"
+
+namespace WeaponDamageCustomizer
+{
+	float StonePickDamageMultiplierToWild;
+	float StoneHatchetDamageMultiplierToWild;
+	float MetalPickDamageMultiplierToWild;
+	float MetalHatchetDamageMultiplierToWild;
+	float MetalSickleDamageMultiplierToWild;
+	float ChainsawDamageMultiplierToWild;
+	float SpearDamageMultiplierToWild;
+	float PikeDamageMultiplierToWild;
+	float WoodenClubDamageMultiplierToWild;
+	float RegularSwordDamageMultiplierToWild;
+	float ElectricProdDamageMultiplierToWild;
+	float SlingshotDamageMultiplierToWild;
+	float BoomerangDamageMultiplierToWild;
+	float WhipDamageMultiplierToWild;
+	float BowDamageMultiplierToWild;
+	float CrossBowDamageMultiplierToWild;
+	float CompoundBowDamageMultiplierToWild;
+	float HarpoonLauncherDamageMultiplierToWild;
+	float SimplePistolDamageMultiplierToWild;
+	float LongneckDamageMultiplierToWild;
+	float PrimitiveShotgunDamageMultiplierToWild;
+	float FabricatedPistolDamageMultiplierToWild;
+	float PumpShotgunDamageMultiplierToWild;
+	float AssaultRifleDamageMultiplierToWild;
+	float SniperRifleDamageMultiplierToWild;
+	float FlamethrowerDamageMultiplierToWild;
+	float ChargeLanternDamageMultiplierToWild;
+	float TekRifleDamageMultiplierToWild;
+	float TekSwordDamageMultiplierToWild;
+	float TekRailgunDamageMultiplierToWild;
+	float StonePickDamageMultiplierToTamed;
+	float StoneHatchetDamageMultiplierToTamed;
+	float MetalPickDamageMultiplierToTamed;
+	float MetalHatchetDamageMultiplierToTamed;
+	float MetalSickleDamageMultiplierToTamed;
+	float ChainsawDamageMultiplierToTamed;
+	float SpearDamageMultiplierToTamed;
+	float PikeDamageMultiplierToTamed;
+	float WoodenClubDamageMultiplierToTamed;
+	float RegularSwordDamageMultiplierToTamed;
+	float ElectricProdDamageMultiplierToTamed;
+	float SlingshotDamageMultiplierToTamed;
+	float BoomerangDamageMultiplierToTamed;
+	float WhipDamageMultiplierToTamed;
+	float BowDamageMultiplierToTamed;
+	float CrossBowDamageMultiplierToTamed;
+	float CompoundBowDamageMultiplierToTamed;
+	float HarpoonLauncherDamageMultiplierToTamed;
+	float SimplePistolDamageMultiplierToTamed;
+	float LongneckDamageMultiplierToTamed;
+	float PrimitiveShotgunDamageMultiplierToTamed;
+	float FabricatedPistolDamageMultiplierToTamed;
+	float PumpShotgunDamageMultiplierToTamed;
+	float AssaultRifleDamageMultiplierToTamed;
+	float SniperRifleDamageMultiplierToTamed;
+	float FlamethrowerDamageMultiplierToTamed;
+	float ChargeLanternDamageMultiplierToTamed;
+	float TekRifleDamageMultiplierToTamed;
+	float TekSwordDamageMultiplierToTamed;
+	float TekRailgunDamageMultiplierToTamed;
+	float StonePickDamageMultiplierToPlayer;
+	float StoneHatchetDamageMultiplierToPlayer;
+	float MetalPickDamageMultiplierToPlayer;
+	float MetalHatchetDamageMultiplierToPlayer;
+	float MetalSickleDamageMultiplierToPlayer;
+	float ChainsawDamageMultiplierToPlayer;
+	float SpearDamageMultiplierToPlayer;
+	float PikeDamageMultiplierToPlayer;
+	float WoodenClubDamageMultiplierToPlayer;
+	float RegularSwordDamageMultiplierToPlayer;
+	float ElectricProdDamageMultiplierToPlayer;
+	float SlingshotDamageMultiplierToPlayer;
+	float BoomerangDamageMultiplierToPlayer;
+	float WhipDamageMultiplierToPlayer;
+	float BowDamageMultiplierToPlayer;
+	float CrossBowDamageMultiplierToPlayer;
+	float CompoundBowDamageMultiplierToPlayer;
+	float HarpoonLauncherDamageMultiplierToPlayer;
+	float SimplePistolDamageMultiplierToPlayer;
+	float LongneckDamageMultiplierToPlayer;
+	float PrimitiveShotgunDamageMultiplierToPlayer;
+	float FabricatedPistolDamageMultiplierToPlayer;
+	float PumpShotgunDamageMultiplierToPlayer;
+	float AssaultRifleDamageMultiplierToPlayer;
+	float SniperRifleDamageMultiplierToPlayer;
+	float FlamethrowerDamageMultiplierToPlayer;
+	float ChargeLanternDamageMultiplierToPlayer;
+	float TekRifleDamageMultiplierToPlayer;
+	float TekSwordDamageMultiplierToPlayer;
+	float TekRailgunDamageMultiplierToPlayer;
+	nlohmann::json config, TempConfig;
+}
